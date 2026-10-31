@@ -35,8 +35,22 @@
 ---
 
 ## 🏛️ End-to-End Machine Learning Engineering Lifecycle
-┌────────────────────────────────────────────────────────────────────────────────────────────────────────┐ │ THE PRODUCTION MACHINE LEARNING PIPELINE │ ├───────────────────────────────────┬───────────────────────────────────┬────────────────────────────────┤ │ 1. DATA & FEATURE ENGINEERING │ 2. MODELING & EXPERIMENTATION │ 3. MLOps, SERVING & MONITORING │ ├───────────────────────────────────┼───────────────────────────────────┼────────────────────────────────┤ │ • Exploratory Data Analysis (EDA) │ • Algorithm Benchmarking │ • Microservice API Serving │ │ • Data Profiling & Cleaning │ (Classical, Ensemble, Deep Net) │ (Flask, Gunicorn WSGI) │ │ • Synthetic Over-Sampling (SMOTE) │ • Transfer Learning (ResNet/CNN) │ • Containerization (Docker) │ │ • Windowing, Lags & Rolling Stats │ • Transformer Fine-Tuning │ • Cloud Compute Hosting (GCP) │ │ • Vectorization & Tokenization │ • Hyperparameter Optimization │ • Model Versioning (Git/DVC) │ │ • PySpark DAG Partitioning │ • Cross-Validation (K-Fold) │ • Live Auditing & Dashboards │ │ • Dense Semantic Embeddings │ • Metric Tracking (ROC-AUC, F1) │ (Power BI, Plotly.js) │ └───────────────────────────────────┴───────────────────────────────────┴────────────────────────────────┘
 
+```text
+┌────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                              THE PRODUCTION MACHINE LEARNING PIPELINE                                  │
+├───────────────────────────────────┬───────────────────────────────────┬────────────────────────────────┤
+│ 1. DATA & FEATURE ENGINEERING     │ 2. MODELING & EXPERIMENTATION     │ 3. MLOps, SERVING & MONITORING │
+├───────────────────────────────────┼───────────────────────────────────┼────────────────────────────────┤
+│ • Exploratory Data Analysis (EDA) │ • Algorithm Benchmarking          │ • Microservice API Serving     │
+│ • Data Profiling & Cleaning       │   (Classical, Ensemble, Deep Net) │   (Flask, Gunicorn WSGI)       │
+│ • Synthetic Over-Sampling (SMOTE) │ • Transfer Learning (ResNet/CNN)  │ • Containerization (Docker)    │
+│ • Windowing, Lags & Rolling Stats │ • Transformer Fine-Tuning         │ • Cloud Compute Hosting (GCP)  │
+│ • Vectorization & Tokenization    │ • Hyperparameter Optimization     │ • Model Versioning (Git/DVC)   │
+│ • PySpark DAG Partitioning        │ • Cross-Validation (K-Fold)       │ • Live Auditing & Dashboards   │
+│ • Dense Semantic Embeddings       │ • Metric Tracking (ROC-AUC, F1)   │   (Power BI, Plotly.js)        │
+└───────────────────────────────────┴───────────────────────────────────┴────────────────────────────────┘
+```
 
 ---
 
@@ -69,7 +83,7 @@
     - **Merge & Deduplication**: Intersects the top-k results from both search heads, producing an enriched, hallucination-free context payload.
   - **LLM Entity Extraction**: Directly augments the retrieved context into **Google Gemini 1.5 Flash**, reliably extracting structured clinical JSON payloads (`patient_name`, `insurer`, `policy_number`, `hospital`, `diagnosis`, `bill_amount`) from free-form natural language patient stories.
   - **Cryptographic Document Certification**: Built an automated digital sealing engine that issues tamper-evident **`MRD-SHA256` cryptographic hashes** on official records:
-    $$\text{Hash} = \text{SHA-256}(\text{Claim\_ID} \parallel \text{Doc\_Name} \parallel \text{ISO\_Timestamp})$$
+    `Hash = SHA-256(Claim_ID + ":" + Doc_Name + ":" + ISO_Timestamp)`
     Permanently verifies hospital authenticity and prevents post-discharge bill tampering.
   - **Multi-Role Portal Suite**: Integrated three secure stakeholder views: Patient Onboarding, Hospital MRD Operations Desk (with digital signing and PDF uploads), and a Super Admin Live Communication Auditor with real-time patient filtering.
 
@@ -115,10 +129,54 @@
 ---
 
 ## 🛠️ Comprehensive Technical Competency Matrix
-┌────────────────────────────────────────────────────────────────────────────────────────────────────────┐ │ COMPLETE TECHNICAL SKILL SET │ ├─────────────────────────┬──────────────────────────────────────────────────────────────────────────────┤ │ Programming Languages │ • Python (Advanced — OOP, NumPy, Pandas, Async, Scripting) │ │ │ • SQL (Complex Joins, Window Functions, Aggregations, Indexing) │ │ │ • R (Exploratory Data Analysis, Statistical Tests, Hypothesis Testing) │ │ │ • JavaScript (ES6+, Async/Await, DOM, Full-Stack Integration) │ ├─────────────────────────┼──────────────────────────────────────────────────────────────────────────────┤ │ Classical Machine │ • Supervised Learning: Random Forest, Gradient Boosting (GBM), XGBoost, │ │ Learning & Statistics │ Support Vector Machines (SVM), K-Nearest Neighbors (KNN), Logistic Reg. │ │ │ • Unsupervised Learning: K-Means Clustering, PCA, Isolation Forests │ │ │ • Techniques: SMOTE, Hyperparameter Tuning (Grid/Random Search), CV, │ │ │ Feature Importance, Statistical Hypothesis Testing, Probability Dist. │ ├─────────────────────────┼──────────────────────────────────────────────────────────────────────────────┤ │ Deep Learning & │ • Frameworks: TensorFlow, Keras, PyTorch │ │ Computer Vision │ • Architectures: Convolutional Neural Networks (CNN), ResNet, MobileNet │ │ │ • Methodologies: Transfer Learning, Fine-Tuning, Dropout Regularization, │ │ │ Data Augmentation (Jitter, Flips, Rotations), Loss Optimization │ │ │ • Libraries: OpenCV, PIL, Scikit-Image │ ├─────────────────────────┼──────────────────────────────────────────────────────────────────────────────┤ │ Natural Language │ • Generative AI: Google Gemini 1.5 API, Anthropic Claude API │ │ Processing & GenAI │ • Architecture: Hybrid RAG (ChromaDB Vector Store + BM25Okapi Lexical Match)│ │ │ • Transformers: Hugging Face Ecosystem, MarianMT Fine-Tuning, Seq2Seq │ │ │ • Concepts: Vector Embeddings, Cosine Similarity, HNSW Indexing, BLEU Score, │ │ │ Prompt Engineering, Structured Output Formatting (JSON Schemas) │ ├─────────────────────────┼──────────────────────────────────────────────────────────────────────────────┤ │ Big Data & Distributed │ • Apache Spark (PySpark DataFrames, Spark SQL, Spark MLlib) │ │ Processing │ • Directed Acyclic Graph (DAG) Optimization, Memory Partitioning │ │ │ • Large-Scale Feature Engineering (Rolling Statistics, Lags, Windowing) │ ├─────────────────────────┼──────────────────────────────────────────────────────────────────────────────┤ │ Full-Stack & MLOps │ • Backend Frameworks: Python Flask, Gunicorn WSGI Production Server │ │ Infrastructure │ • MERN Stack: MongoDB (Aggregations), Express.js, React.js, Node.js │ │ │ • Relational DBs: SQLite, PostgreSQL │ │ │ • DevOps & Cloud: Docker Containerization, Google Cloud Platform (GCP │ │ │ Compute Engine, Cloud Storage), Git Version Control, CI/CD Awareness │ ├─────────────────────────┼──────────────────────────────────────────────────────────────────────────────┤ │ Data Evaluation & BI │ • Visual Analytics: Power BI (Executive Reporting), Matplotlib, Seaborn │ │ Metrics │ • Performance Metrics: Confusion Matrix, Precision, Recall, F1-Score, │ │ │ ROC-AUC, Precision-Recall Curves, BLEU Score, Latency Benchmarking │ └─────────────────────────┴──────────────────────────────────────────────────────────────────────────────┘
+
+```text
+┌────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                   COMPLETE TECHNICAL SKILL SET                                         │
+├─────────────────────────┬──────────────────────────────────────────────────────────────────────────────┤
+│ Programming Languages   │ • Python (Advanced — OOP, NumPy, Pandas, Async, Scripting)                   │
+│                         │ • SQL (Complex Joins, Window Functions, Aggregations, Indexing)             │
+│                         │ • R (Exploratory Data Analysis, Statistical Tests, Hypothesis Testing)       │
+│                         │ • JavaScript (ES6+, Async/Await, DOM, Full-Stack Integration)                │
+├─────────────────────────┼──────────────────────────────────────────────────────────────────────────────┤
+│ Classical Machine       │ • Supervised Learning: Random Forest, Gradient Boosting (GBM), XGBoost,     │
+│ Learning & Statistics   │   Support Vector Machines (SVM), K-Nearest Neighbors (KNN), Logistic Reg.   │
+│                         │ • Unsupervised Learning: K-Means Clustering, PCA, Isolation Forests         │
+│                         │ • Techniques: SMOTE, Hyperparameter Tuning (Grid/Random Search), CV,        │
+│                         │   Feature Importance, Statistical Hypothesis Testing, Probability Dist.     │
+├─────────────────────────┼──────────────────────────────────────────────────────────────────────────────┤
+│ Deep Learning &         │ • Frameworks: TensorFlow, Keras, PyTorch                                     │
+│ Computer Vision         │ • Architectures: Convolutional Neural Networks (CNN), ResNet, MobileNet      │
+│                         │ • Methodologies: Transfer Learning, Fine-Tuning, Dropout Regularization,     │
+│                         │   Data Augmentation (Jitter, Flips, Rotations), Loss Optimization           │
+│                         │ • Libraries: OpenCV, PIL, Scikit-Image                                       │
+├─────────────────────────┼──────────────────────────────────────────────────────────────────────────────┤
+│ Natural Language        │ • Generative AI: Google Gemini 1.5 API, Anthropic Claude API                 │
+│ Processing & GenAI      │ • Architecture: Hybrid RAG (ChromaDB Vector Store + BM25Okapi Lexical Match)│
+│                         │ • Transformers: Hugging Face Ecosystem, MarianMT Fine-Tuning, Seq2Seq        │
+│                         │ • Concepts: Vector Embeddings, Cosine Similarity, HNSW Indexing, BLEU Score, │
+│                         │   Prompt Engineering, Structured Output Formatting (JSON Schemas)           │
+├─────────────────────────┼──────────────────────────────────────────────────────────────────────────────┤
+│ Big Data & Distributed  │ • Apache Spark (PySpark DataFrames, Spark SQL, Spark MLlib)                 │
+│ Processing              │ • Directed Acyclic Graph (DAG) Optimization, Memory Partitioning             │
+│                         │ • Large-Scale Feature Engineering (Rolling Statistics, Lags, Windowing)      │
+├─────────────────────────┼──────────────────────────────────────────────────────────────────────────────┤
+│ Full-Stack & MLOps      │ • Backend Frameworks: Python Flask, Gunicorn WSGI Production Server          │
+│ Infrastructure          │ • MERN Stack: MongoDB (Aggregations), Express.js, React.js, Node.js          │
+│                         │ • Relational DBs: SQLite, PostgreSQL                                         │
+│                         │ • DevOps & Cloud: Docker Containerization, Google Cloud Platform (GCP        │
+│                         │   Compute Engine, Cloud Storage), Git Version Control, CI/CD Awareness       │
+├─────────────────────────┼──────────────────────────────────────────────────────────────────────────────┤
+│ Data Evaluation & BI    │ • Visual Analytics: Power BI (Executive Reporting), Matplotlib, Seaborn    │
+│ Metrics                 │ • Performance Metrics: Confusion Matrix, Precision, Recall, F1-Score,        │
+│                         │   ROC-AUC, Precision-Recall Curves, BLEU Score, Latency Benchmarking         │
+└─────────────────────────┴──────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
+
 ## 🎓 Academic Background & Formal Qualifications
+
 <table>
   <thead>
     <tr style="background-color: #1e293b;">
@@ -155,35 +213,56 @@
     </tr>
   </tbody>
 </table>
+
 ---
+
 ## 📜 Professional & Industry Certifications
+
 - 🏅 **Claude Code in Action** — *Anthropic*
 - 🏅 **Career Essentials in Generative AI** — *Microsoft & LinkedIn Learning*
 - 🏅 **Google Cloud Computing Foundations** — *Google Cloud Skills Boost*
 - 🏅 **Image Processing Onramp** — *MathWorks*
 - 🏅 **MERN Full Stack Development** — *Ethnus*
+
 ---
+
 ## 💡 Engineering Principles & Philosophy
+
 1. **Data Quality Over Raw Model Complexity**: High-leverage feature engineering, addressing class imbalance (SMOTE), and rigorous cleaning consistently outperform uncalibrated complex algorithms on raw noise.
 2. **Hybrid Over Pure-Play Architectures**: In mission-critical domains (healthcare, law, billing), hybrid approaches (e.g., combining semantic vector search with exact keyword search) drastically reduce hallucinations and edge-case errors.
 3. **Safety & Confidence Thresholding**: In healthcare applications, models must recognize what they *do not* know. Ambiguous predictions should trigger uncertainty flags and human-in-the-loop review rather than unwarranted automated confidence.
 4. **Reproducibility & Operationalization**: A model in a Jupyter Notebook provides zero business utility until it is packaged into a containerized microservice, covered by automated test scripts, and validated with clear evaluation metrics.
+
 ---
+
 ## 📈 GitHub Analytics & Repository Metrics
+
 <div align="center">
+
 <img src="https://github-profile-trophy.vercel.app/?username=rajavardhantalathoti&theme=tokyonight&no-frame=true&column=4" width="88%"/>
+
 <br/><br/>
+
 <img src="https://github-readme-stats.vercel.app/api?username=rajavardhantalathoti&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajavardhantalathoti&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
+
 </div>
+
 ---
+
 <div align="center">
+
 ### 🤝 Let's Connect & Innovate!
+
 **Actively open to full-time roles in Machine Learning Engineering, Data Science & Generative AI Systems**
+
 📧 **Email**: [rajavardhantalathoti@gmail.com](mailto:rajavardhantalathoti@gmail.com)  
 📱 **Phone**: +91 9110360037  
 💼 **LinkedIn**: [linkedin.com/in/raja-vardhan-talathoti](https://www.linkedin.com/in/raja-vardhan-talathoti/)  
 🐙 **GitHub**: [github.com/rajavardhantalathoti](https://github.com/rajavardhantalathoti)
+
 <br/>
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24,31&height=100&section=footer" width="100%"/>
+
 </div>
