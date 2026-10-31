@@ -1,139 +1,101 @@
-<h1 align="left">Hello world, I'm Raja Vardhan 👋</h1>
+<div align="center">
 
----
+<!-- Animated Header Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24,31&height=220&section=header&text=TALATHOTI%20RAJA%20VARDHAN&fontSize=42&fontAlignY=38&animation=twinkling&fontColor=ffffff&desc=AI%20%26%20ML%20Engineer%20%7C%20Generative%20AI%20%26%20Hybrid%20RAG%20Specialist%20%7C%20MERN%20Developer&descSize=16&descAlignY=62&descAlign=50" width="100%"/>
 
-<p align="left">
-  My name is <strong>TALATHOTI RAJA VARDHAN</strong>. I am an enthusiastic and passionate learner with a strong interest in technology and data science.  
-  I enjoy exploring new ideas and constantly seek opportunities to grow and apply my knowledge to real-world problems.
-</p>
+<!-- Animated Typing Text -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=60A5FA&center=true&vCenter=true&random=false&width=650&lines=Building+Production-Ready+Generative+AI+Systems;Specializing+in+Hybrid+RAG+(ChromaDB+%2B+BM25);Certified+in+Claude+Code+in+Action+(Anthropic);Deep+Learning+%26+Computer+Vision+for+Healthcare;Full-Stack+MERN+%2B+Python+Microservices" alt="Typing SVG" />
+</a>
 
-<h4 align="left"><em>Curious, driven learner passionate about technology, data, growth, and impact.</em></h4>
+<br/><br/>
 
----
+<!-- Social & Portfolio Badges -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Raja_Vardhan-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raja-vardhan-talathoti/)
+[![Email](https://img.shields.io/badge/Email-rajavardhantalathoti%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rajavardhantalathoti@gmail.com)
+[![Live Demo](https://img.shields.io/badge/Live_App-CareSync--AI-00C7B7?style=for-the-badge&logo=render&logoColor=white)](https://caresync-ai-tide.onrender.com/)
 
-## 🌍 Contact
-
-<p align="left">
-  📧 <strong>Email:</strong> rajavardhantalathoti@gmail.com<br>
-  📱 <strong>Phone:</strong> 9110360037<br>
-  📍 <strong>Location:</strong> Chirala, Andhra Pradesh, India<br>
-  💼 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/raja-vardhan-talathoti" target="_blank">www.linkedin.com/in/raja-vardhan-talathoti</a><br>
-  🐙 <strong>GitHub:</strong> <a href="https://github.com/rajavardhantalathoti" target="_blank">github.com/rajavardhantalathoti</a>
-</p>
-
----
-
-## 🎓 Education
-
-- <strong>B.Tech in CSE (AI & ML)</strong> – VIT-AP University, Amaravati (2021–2025), CGPA: 8.21  
-- <strong>Intermediate</strong> – Bhashyam Junior College, Guntur (2019–2021), 93.7%  
-- <strong>Class 10</strong> – Vignana Bharathi High School, Chirala (2018–2019), CGPA: 9.7  
-
----
-
-## 🚀 Key Projects
-
-- 🩺 <strong>Skin Cancer Detection Platform</strong>  
-  AI‑driven dermatology platform using CNN/ResNet for medical image analysis with role-based access and multilingual support (English & Telugu).
-
-- 🌐 <strong>Language Translation System</strong>  
-  Context‑aware translation for Indian languages with an adaptive learning module and intelligent quiz generation.
-
-- ⚡ <strong>Real-Time Power Analysis & Theft Detection</strong>  
-  Scalable Python + Apache Spark system with an ensemble of 5 ML/DL models (XGBoost, Random Forest, ANN, Isolation Forest, Autoencoder) and a Flask + Plotly.js dashboard for real‑time visualization and LSTM/TCN‑based forecasting.
-
-- 🏋️ <strong>Fitness Tracker (MERN)</strong>  
-  Full‑stack fitness tracking app using MongoDB, Express, React, and Node.js focusing on secure data handling and a clean, user‑friendly interface.
-
-- 🚗 <strong>Voice Controlled Car</strong>  
-  Raspberry Pi + Arduino‑based robotic car with Bluetooth control and sensors for obstacle detection and navigation in constrained environments.
-
----
-
-## 🧠 Summary of What I Do
-
-<p align="left">
-  ✨ <strong>Creating bugs since:</strong> Implementing CNNs for Skin Cancer Detection and building IoT/robotics projects like a Voice Controlled Car.<br>
-  📚 <strong>Currently learning:</strong> Cloud computing, advanced AI/ML, MERN stack, and big data tools like Apache Spark.<br>
-  🎯 <strong>Goals:</strong> Build scalable web apps using MERN, leverage AI for automation, and contribute to data‑driven solutions in healthcare, energy, and automation.<br>
-  🎧 <strong>Fun fact:</strong> I debug faster with music, midnight motivation, and a fresh build of my project 🚀
-</p>
-
----
-
-## 🛠 Technical Skills
-
-### Languages
-- Python, Java, SQL
-
-### Libraries & Frameworks
-- NumPy, Pandas, Scikit‑learn, TensorFlow, Keras, PyTorch, OpenCV, Streamlit
-
-### Tools
-- Jupyter Notebook, Google Colab, Git, GitHub
-
-### Core Areas
-- Machine Learning & AI, Deep Learning, NLP, Data Analysis, Cloud Computing
-
----
-
-## 📜 Certifications
-
-- Career Essentials in Generative AI – Microsoft and LinkedIn  
-- Google Cloud Computing Foundations – Google Cloud  
-- Image Processing Onramp – MathWorks  
-- MERN Full Stack – Ethnus  
-
----
-
-## 💻 Tech I use (icons)
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" height="40" alt="pycharm logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" height="40" alt="intellij logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" height="40" alt="anaconda logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="40" alt="googlecloud logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="40" alt="express logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="mongodb logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="40" alt="tensorflow logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" alt="bootstrap logo" />
 </div>
 
 ---
 
-## 🤝 Connect with me
+## 🚀 About My Work
 
-<div align="left">
-  <a href="https://www.linkedin.com/in/raja-vardhan-talathoti" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/rajavardhantalathoti" target="_blank">
-    <img src="https://raw.githubusercontent.com/github/explore/main/topics/github/github.png" width="40" height="40" alt="github logo" />
-  </a>
+```python
+class RajaVardhan:
+    def __init__(self):
+        self.name = "Talathoti Raja Vardhan"
+        self.education = "B.Tech in CSE (AI & Machine Learning) @ VIT-AP University (CGPA: 8.21)"
+        self.core_focus = ["Generative AI", "Claude & Gemini LLMs", "Hybrid RAG Systems", "MERN Stack"]
+        self.current_project = "CareSync-AI (Full-Stack RAG Healthcare Documentation)"
+        self.location = "Andhra Pradesh, India 🇮🇳"
+        
+    def passions(self):
+        return [
+            "Bridging dense vector retrieval with exact keyword indexing",
+            "Leveraging Anthropic Claude & Google Gemini for clinical automation",
+            "Building scalable, full-stack intelligence with Python & MERN"
+        ]
+```
+
+---
+
+## 🛠️ Intelligent Tech Universe
+
+<table align="center" width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🧠 Generative AI & Retrieval (RAG)</h3>
+      <div align="center">
+        <img src="https://img.shields.io/badge/LLMs-Anthropic_Claude_|_Google_Gemini-D97706?style=for-the-badge&logo=anthropic&logoColor=white"/><br/>
+        <img src="https://img.shields.io/badge/Vector_DB-ChromaDB-FF6600?style=for-the-badge&logo=databricks&logoColor=white"/><br/>
+        <img src="https://img.shields.io/badge/Keyword_Index-BM25Okapi-8A2BE2?style=for-the-badge"/><br/>
+        <img src="https://img.shields.io/badge/Pipeline-Hybrid_RAG_Architecture-6366F1?style=for-the-badge"/><br/>
+        <img src="https://img.shields.io/badge/Technique-Context_Augmentation_|_Extraction-06B6D4?style=for-the-badge"/>
+      </div>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🔬 Deep Learning & Computer Vision</h3>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Deep_Learning-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/><br/>
+        <img src="https://img.shields.io/badge/Neural_Nets-TensorFlow_|_Keras-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/><br/>
+        <img src="https://img.shields.io/badge/Computer_Vision-OpenCV_|_CNNs-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/><br/>
+        <img src="https://img.shields.io/badge/Models-ResNet_|_Transfer_Learning-10B981?style=for-the-badge"/><br/>
+        <img src="https://img.shields.io/badge/Big_Data_ML-Apache_Spark_|_XGBoost-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white"/>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">⚡ Full-Stack MERN & Microservices</h3>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Frontend-React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black"/><br/>
+        <img src="https://img.shields.io/badge/Runtime-Node.js_|_Express.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/><br/>
+        <img src="https://img.shields.io/badge/Database-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/><br/>
+        <img src="https://img.shields.io/badge/Microframework-Python_Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
+      </div>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">☁️ Cloud, Security & Tooling</h3>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Language-Python_3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white"/><br/>
+        <img src="https://img.shields.io/badge/Deployment-Render_Cloud-46E3B7?style=for-the-badge&logo=render&logoColor=black"/><br/>
+        <img src="https://img.shields.io/badge/Security-SHA--256_Digital_Seals-10B981?style=for-the-badge"/><br/>
+        <img src="https://img.shields.io/badge/VCS-Git_|_GitHub-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+      </div>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🏆 Featured Flagship Projects
+
+<div align="center">
+
+### 🏥 ── [CareSync-AI : Smart Patient Onboarding & Hospital MRD Portal](https://github.com/rajavardhantalathoti/CareSync-AI) ──
+[![Live Demo Badge](https://img.shields.io/badge/🌐_LIVE_WEB_APP-caresync--ai--tide.onrender.com-success?style=for-the-badge&logo=render)](https://caresync-ai-tide.onrender.com/)
+
 </div>
+
+> A comprehensive, full-stack healthcare platform powered by a **Dual-Retriever Hybrid RAG Engine** and **Cryptographic Document Certification**.
